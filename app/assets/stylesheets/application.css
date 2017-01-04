@@ -14,4 +14,28 @@
  *= require_self
  */
 
- 
+ h1{
+ 	font-family: 'Amatic SC', cursive;
+ }
+
+ p{
+ 	font-family: 'PT Mono', monospace;
+ 	font-size: 18px;
+ }
+ .navbar{
+ 	background-color: #efefef;
+ 	box-shadow: 0 22px 22px -22px rgba(85, 85, 85, 0.3);
+ }
+ ul {
+  list-style-type: none;
+  
+  display: inline-flex;
+  margin-top: 10px;
+}
+.linked{
+	margin-right: 15px;
+}
+.navbar-right{
+	margin-right: 45px;
+	font-family: 'PT Mono', monospace;
+}
