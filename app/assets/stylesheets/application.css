@@ -30,12 +30,21 @@
   list-style-type: none;
   
   display: inline-flex;
-  margin-top: 10px;
+  
 }
 .linked{
 	margin-right: 15px;
 }
 .navbar-right{
-	margin-right: 45px;
+	margin-right: 50px;
 	font-family: 'PT Mono', monospace;
+	margin-top: 12px;
+}
+
+.jose{
+	margin-left: -20px;
+	font-weight: bold;
+	font-family: 'Amatic SC', cursive;
+	font-size: 23px;
+	margin-top: 8px;
 }
