@@ -13,7 +13,24 @@
  *= require_tree .
  *= require_self
  */
-
+.rowweb{
+	margin-top: 70px;
+}
+.well{
+	height: 250px;
+	width: auto;
+}
+.well-over{
+	background-image: url("/assets/over2");
+	background-size: cover;
+	background-position: -10px -30px;
+}
+.well-bar{
+	background-image: url("/assets/knife3.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 body{
 	background-image: url("/assets/graph2.jpg");
 	background-size: cover;
@@ -25,19 +42,23 @@ body{
  }
 
 .abouttitle{
-	font-family: 'Amatic SC', cursive;
+	font-family: 'PT Mono', monospace;
 	font-size: 40px;
 }
 .about{
 	font-family: 'PT Mono', monospace;
 	font-size: 18px;
 }
+.webapp{
+	font-family: 'PT Mono', monospace;
+	font-size: 15px;
+}
 .undertitle{
- 	font-family: 'Amatic SC', cursive;
- 	font-size: 30px;
+ 	font-family: 'PT Mono', monospace;
+ 	font-size: 18px;
  }
- .aboutcol{
-	margin-top: 20px;
+.abouttext{
+	margin-top: 60px;
 }
 .navbar{
  	background-color: #efefef;
@@ -52,6 +73,10 @@ ul {
 }
 .linked{
 	margin-right: 15px;
+	font-size: 16px;
+}
+.git{
+	font-size: 16px;
 }
 .navbar-right{
 	margin-right: 50px;
