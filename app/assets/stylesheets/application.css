@@ -13,6 +13,11 @@
  *= require_tree .
  *= require_self
  */
+.img-thumbnail{
+	border: 3px solid #efefef;
+	/*background: brown;*/
+}
+
 .rowweb{
 	margin-top: 70px;
 }
@@ -29,7 +34,7 @@
 	/*background-position: -10px -30px;*/
 }
 .well-bar{
-	background-image: url("/assets/knife3.jpg");
+	background-image: url("/assets/barchef3.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -49,13 +54,19 @@ body{
 	font-family: 'PT Mono', monospace;
 	font-size: 40px;
 }
+.aboutme{
+	font-family: 'PT Mono', monospace;
+	font-size: 18px;
+	text-align: left;
+}
 .about{
 	font-family: 'PT Mono', monospace;
 	font-size: 18px;
 }
 .webapp{
 	font-family: 'PT Mono', monospace;
-	font-size: 15px;
+	font-size: 18px;
+	margin-top: 20px;
 }
 .undertitle{
  	font-family: 'PT Mono', monospace;
@@ -78,6 +89,10 @@ ul {
 .resumeul{
 	display: inline-block;
 	font-family: 'PT Mono', monospace;
+}
+.rowinfo{
+	margin-right: 33px;
+	margin-bottom: 50px;
 }
 .resumepic{
 	height: 180px;
@@ -103,7 +118,7 @@ ul {
 	margin-top: 8px;
 }
 .josepic{
-	height: 160px;
+	height: 180px;
 	margin-top: 30px;
 	
 }
