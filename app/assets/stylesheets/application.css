@@ -29,7 +29,7 @@ a {
 	width: auto;
 }
 .well-over{
-	background-image: image-url("/assets/over2");
+	background-image: url("/assets/over2");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -37,14 +37,14 @@ a {
 	/*background-position: -10px -30px;*/
 }
 .well-bar{
-	background-image: image-url("/assets/barchef3.png");
+	background-image: url("/assets/barchef3.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-color: black;
 }
 body{
-	background-image: image-url("/assets/graph2.jpg");
+	background-image: url("/assets/graph2.jpg");
 	background-size: contain;
 } 
 .title{
