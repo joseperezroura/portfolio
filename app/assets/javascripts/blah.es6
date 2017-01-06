@@ -6,6 +6,6 @@ $(document).on("turbolinks:load", function () {
 
 function ScrollToPortfolio(x){
 	x.preventDefault();
-	window.scroll(0, 420)
+	window.scroll(0, 480)
 }
 
