@@ -4,7 +4,7 @@ gem 'sprockets-es6', require: 'sprockets/es6'
 gem 'materialize-sass'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
-gem 'pg'
+gem 'sqlite3'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
