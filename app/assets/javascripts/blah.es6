@@ -5,6 +5,7 @@ $(document).on("turbolinks:load", function () {
 
 $(".js-well").mouseover(function() {
     $(this).animate({ marginTop: 100 });
+    $(this).animate({ marginTop: -100 });
 })
 
 
