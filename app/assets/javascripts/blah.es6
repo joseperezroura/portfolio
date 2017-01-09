@@ -4,11 +4,26 @@ $(document).on("turbolinks:load", function () {
 
 
 $(".js-well").mouseover(function() {
-    $(this).animate({ marginTop: 100 });
+    $(this).animate({ marginTop: 80 });
     $(this).animate({ marginTop: -15 });
 })
 
+$(function() {
 
+    var quotes = $(".js-quotes");
+    var quoteIndex = -1;
+    
+    function showNextQuote() {
+        ++quoteIndex;
+        quotes.eq(quoteIndex % quotes.length)
+            .fadeIn(1500)
+            .delay(1500)
+            .fadeOut(1500, showNextQuote);
+    }
+    
+    showNextQuote();
+    
+})();
 
 });
 

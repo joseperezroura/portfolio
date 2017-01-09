@@ -13,6 +13,9 @@
  *= require_tree .
  *= require_self
  */
+.js-quotes{display: none;
+}
+
 a {
     color: black;
 }
@@ -61,6 +64,14 @@ body{
 	font-family: 'PT Mono', monospace;
 	font-size: 18px;
 	text-align: left;
+}
+
+.copyright{
+	font-family: 'PT Mono', monospace;
+	font-size: 14px;
+	margin-left: 20px;
+	text-align: left;
+	margin-top: 30px;
 }
 .about{
 	font-family: 'PT Mono', monospace;
