@@ -1,6 +1,14 @@
 $(document).on("turbolinks:load", function () {
 	console.log("fuck you")
 	$(".js-jose").on("click", ScrollToPortfolio);
+
+
+$(".js-well").mouseover(function() {
+    $(this).animate({ marginTop: 100 });
+})
+
+
+
 });
 
 
