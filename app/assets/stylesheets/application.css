@@ -15,21 +15,25 @@
  */
 .js-quotes{display: none;
 }
-
+.movie2logo{
+	margin-top: 40px;
+}
 a {
     color: black;
 }
 .img-thumbnail{
-	border: 3px solid #efefef;
+	border: 1px solid black;
+	background-color: #efefef;
 	/*background: brown;*/
 }
 
 .rowweb{
-	margin-top: 70px;
+	margin-top: 50px;
 }
 .well{
 	height: 200px;
 	width: auto;
+	border: 1px solid black;
 }
 .well-over{
 	background-image: url("/assets/over2");
@@ -47,14 +51,14 @@ a {
 	background-color: black;
 }
 .well-spotify{
-	background-image: url("/assets/spotify.png");
+	background-image: url("/assets/spotify3.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-color: #F0F8FF;
 }
 .well-app{
-	background-image: url("/assets/movie2logo.svg");
+	/*background-image: url("/assets/movie2logo.svg");*/
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -148,6 +152,9 @@ ul {
 .josepic{
 	height: 180px;
 	margin-top: 30px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
 	
 }
 .joseheaderrow{
