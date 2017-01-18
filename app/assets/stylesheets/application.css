@@ -46,6 +46,20 @@ a {
 	background-size: contain;
 	background-color: black;
 }
+.well-spotify{
+	background-image: url("/assets/spotify.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #F0F8FF;
+}
+.well-app{
+	background-image: url("/assets/movie2logo.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: black;
+	}
 body{
 	background-image: url("/assets/graph2.jpg");
 	background-size: contain;
