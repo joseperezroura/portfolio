@@ -79,6 +79,7 @@ a {
 	position: absolute;
 	width: 90%;
 	}
+
 body{
 	background-image: url("/assets/graph2.jpg");
 	background-size: contain;
@@ -109,6 +110,9 @@ body{
 .about{
 	font-family: 'PT Mono', monospace;
 	font-size: 18px;
+}
+.addinfo{
+	margin-top: 60px;
 }
 .webapp{
 	font-family: 'PT Mono', monospace;
