@@ -13,6 +13,10 @@
  *= require_tree .
  *= require_self
  */
+
+.spacing{
+	margin: 0 auto;
+}
 .js-quotes{display: none;
 }
 .movie2logo{
@@ -26,9 +30,11 @@ a {
 	background-color: #efefef;
 	/*background: brown;*/
 }
-
-.rowweb{
+.rowmean{
 	margin-top: 50px;
+}
+.rowweb{
+	margin-top: 200px;
 }
 .well{
 	height: 200px;
@@ -41,6 +47,9 @@ a {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: #405577;
+	position: absolute;
+	width: 90%;
+	/*float: none;*/
 	/*background-position: -10px -30px;*/
 }
 .well-bar{
@@ -49,6 +58,8 @@ a {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-color: black;
+	position: absolute;
+	width: 90%;
 }
 .well-spotify{
 	background-image: url("/assets/spotify3.png");
@@ -56,6 +67,8 @@ a {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-color: #F0F8FF;
+	position: absolute;
+	width: 90%;
 }
 .well-app{
 	/*background-image: url("/assets/movie2logo.svg");*/
@@ -63,6 +76,8 @@ a {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-color: black;
+	position: absolute;
+	width: 90%;
 	}
 body{
 	background-image: url("/assets/graph2.jpg");
@@ -150,7 +165,7 @@ ul {
 	margin-top: 8px;
 }
 .josepic{
-	height: 180px;
+	width: 90%;
 	margin-top: 30px;
 	background-size: contain;
 	background-position: center;
@@ -163,4 +178,5 @@ ul {
 .toprow{
 	margin-top: 40px;
 }
+
 
