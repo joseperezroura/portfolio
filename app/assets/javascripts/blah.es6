@@ -3,10 +3,10 @@ $(document).on("turbolinks:load", function () {
 	$(".js-jose").on("click", ScrollToPortfolio);
 
 
-// $(".js-well").mouseover(function() {
-//     $(this).animate({ marginTop: 80 });
-//     $(this).animate({ marginTop: -15 });
-// })
+$(".js-well").mouseover(function() {
+    $(this).animate({ marginTop: 80 });
+    $(this).animate({ marginTop: -15 });
+})
 
 $(function() {
 
